@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дипломдарым</title>
+    <style>
+        /* Google шрифты */
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Навигация */
+        nav {
+            background: #2c3e50;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        /* Басты тақырып (анимация) */
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .animated-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 50px;
+            color: #2c3e50;
+            position: relative;
+            display: inline-block;
+        }
+        .animated-title::after {
+            content: "";
+            width: 0;
+            height: 4px;
+            background: #333;
+            position: absolute;
+            left: 50%;
+            bottom: -10px;
+            transitie: 0.5s;
+        }74c3con
+        .animated-title:hover::after {
+            width: 100%;
+            left: 0;
+        }
+
+        /* Дипломдар (үлкен суреттер және жанында мәтін) */
+        .diploma-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .diploma {
+            display: flex;
+            align-items: center;
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            width: 80%;
+            max-width: 1000px;
+        }
+        .diploma img {
+            width: 70%;
+            border-radius: 10px;
+        }
+        .diploma-text {
+            padding-left: 20px;
+            width: 50%;
+        }
+        .diploma-text h2 {
+            font-size: 22px;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .diploma-text p {
+            font-size: 16px;
+            color: #333;
+        }
+
+        /* Адаптивті дизайн */
+        @media (max-width: 768px) {
+            .diploma {
+                flex-direction: column;
+                align-items: center;
+            }
+            .diploma img {
+                width: 100%;
+            }
+            .diploma-text {
+                width: 100%;
+                text-align: center;
+                padding: 10px 0;
+            }
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background: #fff;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0 15px;
+            transition: 0.3s;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+        .navbar a:hover {
+            color: #c39b6f;
+        }
+        .navbar a.active {
+            background: #333;
+            color: white;
+        }
+header {
+    background-color: #;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    h1 colar: #fff;
+}333
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header:hover {
+    background-color: #;
+}444
+
+      
+
+        h1. {
+            background-color: #fff;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <!-- Навигация -->
+   <div class="navbar">
+        <a href="бастыбет.html" class="nav-link active" data-section="home">Басты бет</a>
+        <a href="Диплом.html "class="nav-link" data-section="projects" >Дипломдарым</a>
+        <a href="документ.html" >Документтер</a>
+        <a href="фотогалерея.html" >Фотогалерея</a>
+       
+    </div>
+
+    <!-- Басты тақырып (анимациямен) -->
+    <header>
+        <h1 class="animated-title">Д О К У М Е Н Т Т Е Р</h1>
+    </header>
+<!-- Дипломдар секциясы -->
+<div class="diploma-container">
+    <div class="diploma">
+        <img src="document1.jpg" alt="Document 1">
+        <div class="diploma-text">
+            <h2>Document III орын</h2>
+            <p>«Алтын сақа» олимпиадасынан III орын.</p>
+        </div>
+    </div>
+    <div class="diploma">
+        <img src="document2.jpg" alt="Document 2">
+        <div class="diploma-text">
+            <h2>Document I дәрежелі</h2>
+            <p>«ҚР Педагогтерінің – алтын кітабы» байқауы.</p>
+        </div>
+    </div>
+    <div class="diploma">
+        <img src="document3.jpg" alt="Document 3">
+        <div class="diploma-text">
+            <h2>Диплом</h2>
+            <p>Абай атындағы Қазақ педагогикалық университеті</p>
+        </div>
+    </div>
+    <div class="diploma">
+        <img src="document4.jpg" alt="Document 4">
+        <div class="diploma-text">
+            <h2>Куәлік</h2>
+            <p>Санат дәрежесін тағайындау туралы .</p>
+        </div>
+    </div>
+    <div class="diploma">
+        <img src="document5.jpg" alt="Document 5">
+        <div class="diploma-text">
+            <h2>Диплом</h2>
+            <p>Жоғарғы білім туралы </p>
+        </div>
+    </div>
+
+    <div class="diploma">
+        <img src="document6.jpg" alt="Document 6">
+        <div class="diploma-text">
+            <h2>Куәлік</h2>
+            <p>Біліктілік санатын беруге аттестатталушы адамды аттестаттау туралы</p>
+        </div>
+    </div>
+    <div class="diploma">
+        <img src="document7.jpg" alt="Document 7">
+        <div class="diploma-text">
+            <h2>Емтихан нәтижесі</h2>
+            <p>ЖОО оқу уақытындағы пәндер бағасы </p>
+        </div>
+    </div>
+    <div class="diploma">
+        <img src="document8.jpg" alt="Document 8">
+        <div class="diploma-text">
+            <h2>Document I орын</h2>
+            <p>STEM жобалары бойынша үздік жоба.</p>
+        </div>
+    </div>
+    <div class="diploma">
+        <img src="document9.jpg" alt="Document 9">
+        <div class="diploma-text">
+            <h2>Document II орын</h2>
+            <p>Облыстық математика олимпиадасында жүлдегер.</p>
+        </div>
+    </div>
+
+    <div class="diploma">
+        <img src="document10.jpg" alt="Document 10">
+        <div class="diploma-text">
+            <h2>Document II орын</h2>
+            <p>Облыстық математика олимпиадасында жүлдегер.</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
